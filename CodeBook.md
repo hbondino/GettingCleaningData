@@ -58,3 +58,6 @@ Based on interpreting column names in the features is an open question as to is 
 So I only keep the columns that have the mean and the standard deviation for every measure and gave them a tidy name.
 
 Finally I calculated the mean of every column by subject and activity (except those two columns, of course) and send the result to the file results.txt
+
+- The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2).
+- The gyroscope units are rad/seg.
